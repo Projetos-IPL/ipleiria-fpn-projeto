@@ -2,7 +2,7 @@
   "modelVersion" : "2.3",
   "id" : "atribuirGestorEquipa",
   "name" : "atribuirGestorEquipa",
-  "lastUpdate" : 1684850718630,
+  "lastUpdate" : 1684852352516,
   "rows" : [
     [
       {
@@ -638,11 +638,7 @@
     "listaGestoresEquipaJSON" : {
       "type" : "expression",
       "value" : [
-        "const data = $data.listaGestoresEquipa.value;",
-        "",
-        "const json = JSON.parse(data);",
-        "",
-        "return json;"
+        "return JSON.parse($data.listaGestoresEquipa.value);"
       ],
       "exposed" : false
     }
