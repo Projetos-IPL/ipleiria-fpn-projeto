@@ -1,8 +1,12 @@
 {
-  "modelVersion" : "2.3",
   "id" : "atribuirGestorEquipa",
   "name" : "atribuirGestorEquipa",
-  "lastUpdate" : 1684852352516,
+  "type" : "form",
+  "uuid" : "eb506456-d02f-4994-aed0-36b8811f2358",
+  "modelVersion" : "2.4",
+  "previousArtifactVersion" : "2.3",
+  "lastUpdate" : 1684933992972,
+  "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
       {
@@ -553,23 +557,6 @@
       }
     ]
   ],
-  "assets" : [
-    {
-      "id" : "9ac2f6e5-9fd0-4f27-b54e-bb03ab524b6d",
-      "name" : "style.css",
-      "type" : "css",
-      "order" : 0,
-      "external" : false
-    },
-    {
-      "id" : "66686c30-1627-4742-a643-270423636deb",
-      "name" : "localization.json",
-      "type" : "json",
-      "order" : 0,
-      "external" : false
-    }
-  ],
-  "inactiveAssets" : [ ],
   "variables" : {
     "task" : {
       "type" : "url",
@@ -643,8 +630,23 @@
       "exposed" : false
     }
   },
-  "hasValidationError" : false,
-  "uuid" : "eb506456-d02f-4994-aed0-36b8811f2358",
-  "type" : "form",
-  "description" : "Page generated with Bonita UI designer"
+  "assets" : [
+    {
+      "id" : "9ac2f6e5-9fd0-4f27-b54e-bb03ab524b6d",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "66686c30-1627-4742-a643-270423636deb",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
 }

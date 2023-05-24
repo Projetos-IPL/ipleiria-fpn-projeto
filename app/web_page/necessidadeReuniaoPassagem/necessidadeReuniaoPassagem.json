@@ -1,8 +1,12 @@
 {
-  "modelVersion" : "2.3",
   "id" : "necessidadeReuniaoPassagem",
   "name" : "necessidadeReuniaoPassagem",
-  "lastUpdate" : 1684851172075,
+  "type" : "form",
+  "uuid" : "678bab25-e986-4917-8074-8ca22fc06bf6",
+  "modelVersion" : "2.4",
+  "previousArtifactVersion" : "2.3",
+  "lastUpdate" : 1684933993111,
+  "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
       {
@@ -556,23 +560,6 @@
       }
     ]
   ],
-  "assets" : [
-    {
-      "id" : "f346b8a4-d5ff-4234-bd8b-d857e2aa499a",
-      "name" : "localization.json",
-      "type" : "json",
-      "order" : 0,
-      "external" : false
-    },
-    {
-      "id" : "cdbc080a-56b8-4dc4-ac8b-a787e89c2f21",
-      "name" : "style.css",
-      "type" : "css",
-      "order" : 0,
-      "external" : false
-    }
-  ],
-  "inactiveAssets" : [ ],
   "variables" : {
     "task" : {
       "type" : "url",
@@ -632,8 +619,23 @@
       "exposed" : false
     }
   },
-  "hasValidationError" : false,
-  "uuid" : "678bab25-e986-4917-8074-8ca22fc06bf6",
-  "type" : "form",
-  "description" : "Page generated with Bonita UI designer"
+  "assets" : [
+    {
+      "id" : "f346b8a4-d5ff-4234-bd8b-d857e2aa499a",
+      "name" : "localization.json",
+      "type" : "json",
+      "order" : 0,
+      "external" : false
+    },
+    {
+      "id" : "cdbc080a-56b8-4dc4-ac8b-a787e89c2f21",
+      "name" : "style.css",
+      "type" : "css",
+      "order" : 0,
+      "external" : false
+    }
+  ],
+  "inactiveAssets" : [ ],
+  "webResources" : [ ],
+  "hasValidationError" : false
 }
