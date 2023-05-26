@@ -201,7 +201,7 @@
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_iqlHpvpUEe2Bb-IC_hg4Cg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_iqlusfpUEe2Bb-IC_hg4Cg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_iqlusPpUEe2Bb-IC_hg4Cg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
-          <calledActivityName xmi:type="expression:Expression" xmi:id="_Z0fbQ_pVEe2Bb-IC_hg4Cg" name="" content="" returnTypeFixed="true"/>
+          <calledActivityName xmi:type="expression:Expression" xmi:id="_Z0fbQ_pVEe2Bb-IC_hg4Cg" name="Reunião de Steering" content="Reunião de Steering" returnTypeFixed="true"/>
           <calledActivityVersion xmi:type="expression:Expression" xmi:id="_Z0fbRPpVEe2Bb-IC_hg4Cg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
@@ -290,7 +290,7 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Rx3eFfpUEe2Bb-IC_hg4Cg"/>
         <condition xmi:type="expression:Expression" xmi:id="_Rx3eFvpUEe2Bb-IC_hg4Cg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_fL9ruPpUEe2Bb-IC_hg4Cg" name="Sim" target="_UkCOQPpVEe2Bb-IC_hg4Cg" source="_SNZuEPpVEe2Bb-IC_hg4Cg">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_fL9ruPpUEe2Bb-IC_hg4Cg" name="Sim" target="_UkCOQPpVEe2Bb-IC_hg4Cg" source="_SNZuEPpVEe2Bb-IC_hg4Cg" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_fL9rufpUEe2Bb-IC_hg4Cg"/>
         <condition xmi:type="expression:Expression" xmi:id="_fL9ruvpUEe2Bb-IC_hg4Cg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
@@ -498,7 +498,7 @@
                 </children>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8PKVIfpUEe2Bb-IC_hg4Cg" x="68" y="52"/>
               </children>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19KyofpUEe2Bb-IC_hg4Cg" x="1591" y="70" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_19KyofpUEe2Bb-IC_hg4Cg" x="1591" y="70" width="136" height="68"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_2STVIPpUEe2Bb-IC_hg4Cg" type="3005" element="_2SSuEPpUEe2Bb-IC_hg4Cg" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_2STVIvpUEe2Bb-IC_hg4Cg" type="5005"/>
@@ -516,15 +516,15 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_UkC1W_pVEe2Bb-IC_hg4Cg" type="3005" element="_UkCOQPpVEe2Bb-IC_hg4Cg" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_UkC1XfpVEe2Bb-IC_hg4Cg" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkC1XPpVEe2Bb-IC_hg4Cg" x="2009" y="65" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UkC1XPpVEe2Bb-IC_hg4Cg" x="2009" y="65" width="140" height="70"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_WJGurfpVEe2Bb-IC_hg4Cg" type="3005" element="_WJGuoPpVEe2Bb-IC_hg4Cg" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_WJGur_pVEe2Bb-IC_hg4Cg" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WJGurvpVEe2Bb-IC_hg4Cg" x="2177" y="72" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WJGurvpVEe2Bb-IC_hg4Cg" x="2177" y="72" width="158" height="79"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_Z0fbSvpVEe2Bb-IC_hg4Cg" type="3063" element="_Z0e0MPpVEe2Bb-IC_hg4Cg" fontName=".AppleSystemUIFont" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_Z0fbTPpVEe2Bb-IC_hg4Cg" type="5093"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z0fbS_pVEe2Bb-IC_hg4Cg" x="2344" y="66" width="116" height="58"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Z0fbS_pVEe2Bb-IC_hg4Cg" x="2369" y="83" width="116" height="58"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_IySws_pTEe2Bb-IC_hg4Cg"/>
