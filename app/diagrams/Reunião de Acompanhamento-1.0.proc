@@ -74,7 +74,7 @@
           <expectedDuration xmi:type="expression:Expression" xmi:id="_qLRRa_uSEe2q7-TkJTPtFQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
       </elements>
-      <elements xmi:type="process:Lane" xmi:id="_aF-o0PuSEe2q7-TkJTPtFQ" name="Gestor de Projeto do Cliente">
+      <elements xmi:type="process:Lane" xmi:id="_aF-o0PuSEe2q7-TkJTPtFQ" name="Gestor de Projeto do Cliente" actor="_EdP5cPzdEe2urrycW701bg">
         <elements xmi:type="process:Task" xmi:id="_sc9nMPuSEe2q7-TkJTPtFQ" name="Validação do documento" outgoing="_htZGLPuSEe2q7-TkJTPtFQ" incoming="_hLLw_PuSEe2q7-TkJTPtFQ" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_hLLw8vuSEe2q7-TkJTPtFQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_hLLw8fuSEe2q7-TkJTPtFQ" name="" content="" returnTypeFixed="true"/>
@@ -121,7 +121,8 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_iWvlKfuSEe2q7-TkJTPtFQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_iWvlKvuSEe2q7-TkJTPtFQ" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_SV7M-_uSEe2q7-TkJTPtFQ" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_SV7M-_uSEe2q7-TkJTPtFQ" name="Gestor de Projeto ou Gestor de Implementação" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_EdP5cPzdEe2urrycW701bg" name="Gestor de Projeto do Cliente"/>
       <contract xmi:type="process:Contract" xmi:id="_SV7M_PuSEe2q7-TkJTPtFQ"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_SV7M_fuSEe2q7-TkJTPtFQ">
         <name xmi:type="expression:Expression" xmi:id="_SV7M_vuSEe2q7-TkJTPtFQ" content="" returnTypeFixed="true"/>
@@ -179,7 +180,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_mV_o_fuSEe2q7-TkJTPtFQ" type="3005" element="_mV_o8PuSEe2q7-TkJTPtFQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_mWD6YPuSEe2q7-TkJTPtFQ" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mV_o_vuSEe2q7-TkJTPtFQ" x="341" y="57" width="100" height="50"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mV_o_vuSEe2q7-TkJTPtFQ" x="341" y="67" width="100" height="50"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_oGnSDfuSEe2q7-TkJTPtFQ" type="3005" element="_oGnSAPuSEe2q7-TkJTPtFQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_oGnSD_uSEe2q7-TkJTPtFQ" type="5005"/>

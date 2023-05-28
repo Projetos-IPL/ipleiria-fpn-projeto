@@ -276,7 +276,7 @@
           <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_dnAFkPVdEe2rCoCdwEEGCA" name="ordemVenda" dataType="_F-EJxPVWEe2rCoCdwEEGCA" className="pt.ipleiria.fpn.model.OrdemVenda"/>
         </condition>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_lLU20PVWEe2rCoCdwEEGCA" name="Sim" target="_moWdYPV1Ee2rCoCdwEEGCA" source="_aZ3fYPVWEe2rCoCdwEEGCA">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_lLU20PVWEe2rCoCdwEEGCA" name="Sim" target="_moWdYPV1Ee2rCoCdwEEGCA" source="_aZ3fYPVWEe2rCoCdwEEGCA" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_lLU20fVWEe2rCoCdwEEGCA"/>
         <condition xmi:type="expression:Expression" xmi:id="_lLU20vVWEe2rCoCdwEEGCA" name="newScript()" content="ordemVenda.cumpreRequisitos == true" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
           <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_gpUnEPVdEe2rCoCdwEEGCA" name="ordemVenda" dataType="_F-EJxPVWEe2rCoCdwEEGCA" className="pt.ipleiria.fpn.model.OrdemVenda"/>

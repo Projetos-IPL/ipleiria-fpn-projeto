@@ -222,7 +222,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_xrNNB_VYEe2rCoCdwEEGCA" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_xrNNBPVYEe2rCoCdwEEGCA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xrNNBfVYEe2rCoCdwEEGCA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xrNNBfVYEe2rCoCdwEEGCA" points="[22, 0, -117, -8]$[79, 0, -60, -8]"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_zcoHUPVYEe2rCoCdwEEGCA" type="4001" element="_zcngQPVYEe2rCoCdwEEGCA" source="_xPHG4_VYEe2rCoCdwEEGCA" target="_5fK4nfVYEe2rCoCdwEEGCA" roundedBendpointsRadius="10" routing="Rectilinear">
       <children xmi:type="notation:DecorationNode" xmi:id="_zcoHU_VYEe2rCoCdwEEGCA" type="6001">
@@ -273,7 +273,7 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_74VIVvVYEe2rCoCdwEEGCA" y="-10"/>
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_74VIU_VYEe2rCoCdwEEGCA" fontName="Segoe UI"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_74VIVPVYEe2rCoCdwEEGCA" points="[0, 0, -103, 246]$[102, -232, -1, 14]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_74VIVPVYEe2rCoCdwEEGCA" points="[0, 0, -103, 246]$[102, 0, -1, 246]$[102, -232, -1, 14]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_74WWcPVYEe2rCoCdwEEGCA" id="(1.0,0.5)"/>
     </edges>
   </notation:Diagram>
