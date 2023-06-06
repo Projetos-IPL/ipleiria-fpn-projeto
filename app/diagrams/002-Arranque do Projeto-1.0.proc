@@ -516,7 +516,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_f-8prfoZEe2U79ChiZiVPQ" type="3005" element="_f-8poPoZEe2U79ChiZiVPQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_f-8pr_oZEe2U79ChiZiVPQ" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-8prvoZEe2U79ChiZiVPQ" x="2382" y="53" width="120" height="60"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_f-8prvoZEe2U79ChiZiVPQ" x="2382" y="53" width="152" height="76"/>
             </children>
             <children xmi:type="notation:Shape" xmi:id="_gzr5SvoZEe2U79ChiZiVPQ" type="3063" element="_gzrSMPoZEe2U79ChiZiVPQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_gzr5TPoZEe2U79ChiZiVPQ" type="5093"/>

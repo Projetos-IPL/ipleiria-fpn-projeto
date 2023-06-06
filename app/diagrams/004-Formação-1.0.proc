@@ -315,7 +315,7 @@
             </children>
             <children xmi:type="notation:Shape" xmi:id="_aTpB-_pAEe2RBqNwFOZUZg" type="3005" element="_aToa4PpAEe2RBqNwFOZUZg" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_aTpB_fpAEe2RBqNwFOZUZg" type="5005"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aTpB_PpAEe2RBqNwFOZUZg" x="308" y="331" width="118" height="58"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aTpB_PpAEe2RBqNwFOZUZg" x="308" y="331" width="162" height="80"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_igVrsPpCEe2RBqNwFOZUZg" type="3015" element="_igVEoPpCEe2RBqNwFOZUZg">
               <children xmi:type="notation:DecorationNode" xmi:id="_igVrtfpCEe2RBqNwFOZUZg" type="5010"/>
@@ -329,7 +329,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_fBMoZPo-Ee2RBqNwFOZUZg" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_fBMoZfo-Ee2RBqNwFOZUZg"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_fBMoZvo-Ee2RBqNwFOZUZg"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fBMoZ_o-Ee2RBqNwFOZUZg" x="48" y="10" width="1297" height="449"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fBMoZ_o-Ee2RBqNwFOZUZg" x="28" y="10" width="1393" height="471"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_fBMoaPo-Ee2RBqNwFOZUZg"/>
