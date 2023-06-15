@@ -110,7 +110,7 @@
     <group name="Conta" parentPath="/acme/Gestores">
       <displayName>Conta</displayName>
     </group>
-    <group name="Equipa" parentPath="/acme/Gestores">
+    <group name="GestoresEquipa" parentPath="/acme/Gestores">
       <displayName>Equipa</displayName>
     </group>
     <group name="Equipa" parentPath="/acme">
@@ -172,19 +172,19 @@
     <membership>
       <userName>alice.santos</userName>
       <roleName>member</roleName>
-      <groupName>Equipa</groupName>
+      <groupName>GestoresEquipa</groupName>
       <groupParentPath>/acme/Gestores</groupParentPath>
     </membership>
     <membership>
       <userName>jose.bastos</userName>
       <roleName>member</roleName>
-      <groupName>Equipa</groupName>
+      <groupName>GestoresEquipa</groupName>
       <groupParentPath>/acme/Gestores</groupParentPath>
     </membership>
     <membership>
       <userName>salvador.carvalho</userName>
       <roleName>member</roleName>
-      <groupName>Equipa</groupName>
+      <groupName>GestoresEquipa</groupName>
       <groupParentPath>/acme/Gestores</groupParentPath>
     </membership>
     <membership>

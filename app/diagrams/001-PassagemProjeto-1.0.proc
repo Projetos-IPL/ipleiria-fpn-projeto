@@ -73,7 +73,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_ynF4aPVWEe2rCoCdwEEGCA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_ynF4Z_VWEe2rCoCdwEEGCA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_zMXvuvVWEe2rCoCdwEEGCA">
-            <targetForm xmi:type="expression:Expression" xmi:id="_4xjiEP7DEe2btICAjNdp1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2pAkUAvAEe6aeJWfQknu0Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_zMXvufVWEe2rCoCdwEEGCA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_zMXvvPVWEe2rCoCdwEEGCA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -103,7 +103,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_lLSal_VWEe2rCoCdwEEGCA" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_lLSalvVWEe2rCoCdwEEGCA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_moWdavV1Ee2rCoCdwEEGCA">
-            <targetForm xmi:type="expression:Expression" xmi:id="_4xjiEf7DEe2btICAjNdp1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_2pAkUQvAEe6aeJWfQknu0Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
           <contract xmi:type="process:Contract" xmi:id="_moWdafV1Ee2rCoCdwEEGCA"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_moWdbPV1Ee2rCoCdwEEGCA" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
@@ -248,12 +248,12 @@
         <defaultValue xmi:type="expression:Expression" xmi:id="_ur_RwfV3Ee2rCoCdwEEGCA" content="" returnType="java.lang.Boolean"/>
       </data>
       <data xmi:type="process:Data" xmi:id="_b-x8sPlREe2aJbL_6c55vQ" name="listaGestoresEquipa" dataType="_F-EJwfVWEe2rCoCdwEEGCA">
-        <defaultValue xmi:type="expression:Expression" xmi:id="_b-x8sflREe2aJbL_6c55vQ" name="init_listaGestoresEquipa()" content="import org.bonitasoft.engine.search.SearchOptionsBuilder&#xD;&#xA;&#xD;&#xA;import groovy.json.JsonOutput&#xD;&#xA;&#xD;&#xA;import org.bonitasoft.engine.identity.User&#xD;&#xA;import org.bonitasoft.engine.profile.ProfileSearchDescriptor&#xD;&#xA;import org.bonitasoft.engine.identity.GroupSearchDescriptor&#xD;&#xA;import org.bonitasoft.engine.identity.UserSearchDescriptor&#xD;&#xA;&#xD;&#xA;SearchOptionsBuilder s = new SearchOptionsBuilder(0, 1)&#xD;&#xA;s.filter(GroupSearchDescriptor.NAME, &quot;Equipa&quot;)&#xD;&#xA;Long groupId = apiAccessor.getIdentityAPI().searchGroups(s.done()).getResult().get(0).getId()&#xD;&#xA;&#xD;&#xA;SearchOptionsBuilder s1 = new SearchOptionsBuilder(0, 100)&#xD;&#xA;s1.filter(UserSearchDescriptor.GROUP_ID, groupId)&#xD;&#xA;&#xD;&#xA;List userList = new ArrayList()&#xD;&#xA;&#xD;&#xA;for (User user: apiAccessor.getIdentityAPI().searchUsers(s1.done()).getResult()) {&#xD;&#xA;&#x9;userList.add(user)&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;def json = JsonOutput.toJson(userList);&#xD;&#xA;&#xD;&#xA;return json" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
-          <referencedElements xmi:type="expression:Expression" xmi:id="_IRGZsPloEe2_mLXA0Wlu7A" name="apiAccessor" content="apiAccessor" type="TYPE_ENGINE_CONSTANT" returnType="org.bonitasoft.engine.api.APIAccessor"/>
+        <defaultValue xmi:type="expression:Expression" xmi:id="_b-x8sflREe2aJbL_6c55vQ" name="init_listaGestoresEquipa()" content="import org.bonitasoft.engine.search.SearchOptionsBuilder&#xD;&#xA;&#xD;&#xA;import groovy.json.JsonOutput&#xD;&#xA;&#xD;&#xA;import org.bonitasoft.engine.identity.User&#xD;&#xA;import org.bonitasoft.engine.profile.ProfileSearchDescriptor&#xD;&#xA;import org.bonitasoft.engine.identity.GroupSearchDescriptor&#xD;&#xA;import org.bonitasoft.engine.identity.UserSearchDescriptor&#xD;&#xA;&#xD;&#xA;SearchOptionsBuilder s = new SearchOptionsBuilder(0, 1)&#xD;&#xA;s.filter(GroupSearchDescriptor.NAME, &quot;GestoresEquipa&quot;)&#xD;&#xA;Long groupId = apiAccessor.getIdentityAPI().searchGroups(s.done()).getResult().get(0).getId()&#xD;&#xA;&#xD;&#xA;SearchOptionsBuilder s1 = new SearchOptionsBuilder(0, 100)&#xD;&#xA;s1.filter(UserSearchDescriptor.GROUP_ID, groupId)&#xD;&#xA;&#xD;&#xA;List userList = new ArrayList()&#xD;&#xA;&#xD;&#xA;for (User user: apiAccessor.getIdentityAPI().searchUsers(s1.done()).getResult()) {&#xD;&#xA;&#x9;userList.add(user)&#xD;&#xA;}&#xD;&#xA;&#xD;&#xA;def json = JsonOutput.toJson(userList);&#xD;&#xA;return json" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT">
+          <referencedElements xmi:type="expression:Expression" xmi:id="_eB-uwAvBEe6aeJWfQknu0Q" name="apiAccessor" content="apiAccessor" type="TYPE_ENGINE_CONSTANT" returnType="org.bonitasoft.engine.api.APIAccessor"/>
         </defaultValue>
       </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_F-EJpPVWEe2rCoCdwEEGCA">
-        <targetForm xmi:type="expression:Expression" xmi:id="_4xjiEv7DEe2btICAjNdp1g" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+        <targetForm xmi:type="expression:Expression" xmi:id="_2pAkUgvAEe6aeJWfQknu0Q" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
       <overviewFormMapping xmi:type="process:FormMapping" xmi:id="_F-EJpvVWEe2rCoCdwEEGCA">
         <targetForm xmi:type="expression:Expression" xmi:id="_F-EJp_VWEe2rCoCdwEEGCA" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
