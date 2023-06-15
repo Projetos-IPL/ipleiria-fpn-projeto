@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_e6258PoaEe2U79ChiZiVPQ" name="Sub-005-TarefasDeConceçãoEDesenvolvimento" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_e6258foaEe2U79ChiZiVPQ" name="Tarefas de Conceção e Desenvolvimento">
-      <elements xmi:type="process:Lane" xmi:id="_e6258voaEe2U79ChiZiVPQ" name="." actor="_e63hDPoaEe2U79ChiZiVPQ">
+      <elements xmi:type="process:Lane" xmi:id="_e6258voaEe2U79ChiZiVPQ" name="Equipa de Projeto" actor="_z14cwAu9Ee6aeJWfQknu0Q">
         <elements xmi:type="process:StartEvent" xmi:id="_e6258_oaEe2U79ChiZiVPQ" name="Atividades necessárias" outgoing="_e63hCfoaEe2U79ChiZiVPQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_e6259PoaEe2U79ChiZiVPQ" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_e6259foaEe2U79ChiZiVPQ" name="" content="" returnTypeFixed="true"/>
@@ -64,7 +64,7 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_KDl6sfobEe2U79ChiZiVPQ"/>
         <condition xmi:type="expression:Expression" xmi:id="_KDl6svobEe2U79ChiZiVPQ" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_e63hDPoaEe2U79ChiZiVPQ" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_z14cwAu9Ee6aeJWfQknu0Q" name="Equipa de Projeto" initiator="true"/>
       <contract xmi:type="process:Contract" xmi:id="_e63hDfoaEe2U79ChiZiVPQ"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_e63hDvoaEe2U79ChiZiVPQ">
         <name xmi:type="expression:Expression" xmi:id="_e63hD_oaEe2U79ChiZiVPQ" content="" returnTypeFixed="true"/>
@@ -136,7 +136,7 @@
           <styles xmi:type="notation:FontStyle" xmi:id="_e63hNfoaEe2U79ChiZiVPQ" fontName="Segoe UI"/>
           <styles xmi:type="notation:LineStyle" xmi:id="_e63hNvoaEe2U79ChiZiVPQ"/>
           <styles xmi:type="notation:FillStyle" xmi:id="_e63hN_oaEe2U79ChiZiVPQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e63hOPoaEe2U79ChiZiVPQ" x="48" y="10" width="1297" height="400"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e63hOPoaEe2U79ChiZiVPQ" x="48" y="10" width="1297" height="294"/>
         </children>
       </children>
       <styles xmi:type="notation:DescriptionStyle" xmi:id="_e63hOfoaEe2U79ChiZiVPQ"/>

@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_XRD_oPltEe2cstgNYIL4gw" name="Sub-004-ReuniaoSteering" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_XRD_ofltEe2cstgNYIL4gw" name="Reunião de Steering">
-      <elements xmi:type="process:Lane" xmi:id="_XRD_ovltEe2cstgNYIL4gw" name="Sponsors/St akeholders + Gestor de Projeto do Cliente" actor="_XRD_u_ltEe2cstgNYIL4gw">
+      <elements xmi:type="process:Lane" xmi:id="_XRD_ovltEe2cstgNYIL4gw" name="Sponsors/Stakeholders + Gestor de Projeto do Cliente" actor="_dFl70Au9Ee6aeJWfQknu0Q">
         <elements xmi:type="process:StartEvent" xmi:id="_XRD_o_ltEe2cstgNYIL4gw" name="Início da reunião de steering" outgoing="_0lgLZvzhEe2urrycW701bg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_XRD_pPltEe2cstgNYIL4gw" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_XRD_pfltEe2cstgNYIL4gw" name="" content="" returnTypeFixed="true"/>
@@ -199,7 +199,7 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_SypYEfzlEe2urrycW701bg"/>
         <condition xmi:type="expression:Expression" xmi:id="_SypYEvzlEe2urrycW701bg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_XRD_u_ltEe2cstgNYIL4gw" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_dFl70Au9Ee6aeJWfQknu0Q" name="Stakeholders + Gestor de Projeto do Cliente" initiator="true"/>
       <contract xmi:type="process:Contract" xmi:id="_XRD_vPltEe2cstgNYIL4gw"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_XRD_vfltEe2cstgNYIL4gw">
         <name xmi:type="expression:Expression" xmi:id="_XRD_vvltEe2cstgNYIL4gw" content="" returnTypeFixed="true"/>

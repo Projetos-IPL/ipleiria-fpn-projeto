@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:decision="http://www.bonitasoft.org/ns/studio/process/decision" xmlns:expression="http://www.bonitasoft.org/ns/studio/expression" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:process="http://www.bonitasoft.org/ns/studio/process" xsi:schemaLocation="http://www.bonitasoft.org/ns/studio/process/decision http://www.bonitasoft.org/ns/studio/process#//decision">
   <process:MainProcess xmi:id="_fBMoIPo-Ee2RBqNwFOZUZg" name="004-Formação" bonitaModelVersion="7.12.0-004">
     <elements xmi:type="process:Pool" xmi:id="_fBMoIfo-Ee2RBqNwFOZUZg" name="Formação">
-      <elements xmi:type="process:Lane" xmi:id="_fBMoIvo-Ee2RBqNwFOZUZg" name="Equipa de Formação" actor="_fBMoO_o-Ee2RBqNwFOZUZg">
+      <elements xmi:type="process:Lane" xmi:id="_fBMoIvo-Ee2RBqNwFOZUZg" name="Equipa de Formação" actor="_hiT0MAu8Ee6aeJWfQknu0Q">
         <elements xmi:type="process:StartEvent" xmi:id="_fBMoI_o-Ee2RBqNwFOZUZg" name="Necessária formação" outgoing="_fBMoOPo-Ee2RBqNwFOZUZg">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_fBMoJPo-Ee2RBqNwFOZUZg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_fBMoJfo-Ee2RBqNwFOZUZg" name="" content="" returnTypeFixed="true"/>
@@ -218,7 +218,7 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_FqxmEfp4Ee24vMZ5kKrhyA"/>
         <condition xmi:type="expression:Expression" xmi:id="_FqxmEvp4Ee24vMZ5kKrhyA" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <actors xmi:type="process:Actor" xmi:id="_fBMoO_o-Ee2RBqNwFOZUZg" documentation="This is an example of actor that is mapped to any ACME users" name="Employee actor" initiator="true"/>
+      <actors xmi:type="process:Actor" xmi:id="_hiT0MAu8Ee6aeJWfQknu0Q" name="Equipa de Formação" initiator="true"/>
       <contract xmi:type="process:Contract" xmi:id="_fBMoPPo-Ee2RBqNwFOZUZg"/>
       <searchIndexes xmi:type="process:SearchIndex" xmi:id="_fBMoPfo-Ee2RBqNwFOZUZg">
         <name xmi:type="expression:Expression" xmi:id="_fBMoPvo-Ee2RBqNwFOZUZg" content="" returnTypeFixed="true"/>

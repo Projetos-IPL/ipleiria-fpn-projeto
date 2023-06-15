@@ -199,7 +199,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_btbxKPoZEe2U79ChiZiVPQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_btbxJ_oZEe2U79ChiZiVPQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <calledActivityName xmi:type="expression:Expression" xmi:id="_gzr5Q_oZEe2U79ChiZiVPQ" name="Reunião de Steering" content="Reunião de Steering" returnTypeFixed="true"/>
-          <calledActivityVersion xmi:type="expression:Expression" xmi:id="_gzr5RPoZEe2U79ChiZiVPQ" name="" content="" returnTypeFixed="true"/>
+          <calledActivityVersion xmi:type="expression:Expression" xmi:id="_gzr5RPoZEe2U79ChiZiVPQ" name="1.0" content="1.0" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:EndEvent" xmi:id="_jWa7wPoZEe2U79ChiZiVPQ" name="Fim do arranque do projeto" incoming="_jWdYAPoZEe2U79ChiZiVPQ">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_jWa7wvoZEe2U79ChiZiVPQ" name="" content="" returnTypeFixed="true"/>

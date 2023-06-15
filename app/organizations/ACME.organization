@@ -113,6 +113,24 @@
     <group name="Equipa" parentPath="/acme/Gestores">
       <displayName>Equipa</displayName>
     </group>
+    <group name="Equipa" parentPath="/acme">
+      <displayName>Equipa</displayName>
+    </group>
+    <group name="Projeto" parentPath="/acme/Equipa">
+      <displayName>Projeto</displayName>
+    </group>
+    <group name="Formação" parentPath="/acme/Equipa">
+      <displayName>Formação</displayName>
+    </group>
+    <group name="Testes" parentPath="/acme/Equipa">
+      <displayName>Testes</displayName>
+    </group>
+    <group name="Produtivo" parentPath="/acme/Equipa">
+      <displayName>Produtivo</displayName>
+    </group>
+    <group name="Stakeholders" parentPath="/Cliente">
+      <displayName>Stakeholders</displayName>
+    </group>
   </groups>
   <memberships>
     <membership>
