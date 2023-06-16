@@ -62,15 +62,30 @@
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_T9TUsvziEe2urrycW701bg" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_T9TUsfziEe2urrycW701bg" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_T9TUs_ziEe2urrycW701bg" name="" content="" returnTypeFixed="true"/>
+          <operations xmi:type="expression:Operation" xmi:id="_KwpuUgyNEe68ktis9SOhDA">
+            <leftOperand xmi:type="expression:Expression" xmi:id="_KwpuUwyNEe68ktis9SOhDA" name="ordemVenda" content="ordemVenda" type="TYPE_VARIABLE" returnType="pt.ipleiria.fpn.model.OrdemVenda">
+              <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_KwpuVAyNEe68ktis9SOhDA" name="ordemVenda" dataType="_XRD_1PltEe2cstgNYIL4gw" className="pt.ipleiria.fpn.model.OrdemVenda"/>
+            </leftOperand>
+            <rightOperand xmi:type="expression:Expression" xmi:id="_KwpuVQyNEe68ktis9SOhDA" name="ordemVendaInput.documentoAprovado" content="ordemVendaInput?.documentoAprovado" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean">
+              <referencedElements xmi:type="process:ContractInput" xmi:id="_KwpuVgyNEe68ktis9SOhDA" name="ordemVendaInput" type="COMPLEX" createMode="false"/>
+            </rightOperand>
+            <operator xmi:type="expression:Operator" xmi:id="_KwpuVwyNEe68ktis9SOhDA" type="JAVA_METHOD" expression="setDocumentoAprovado">
+              <inputTypes>java.lang.Boolean</inputTypes>
+            </operator>
+          </operations>
           <loopCondition xmi:type="expression:Expression" xmi:id="_T9TUtPziEe2urrycW701bg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <loopMaximum xmi:type="expression:Expression" xmi:id="_T9TUtfziEe2urrycW701bg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <cardinalityExpression xmi:type="expression:Expression" xmi:id="_T9TUtvziEe2urrycW701bg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_T9TUuPziEe2urrycW701bg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_T9TUt_ziEe2urrycW701bg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <formMapping xmi:type="process:FormMapping" xmi:id="_Vv4sqvziEe2urrycW701bg">
-            <targetForm xmi:type="expression:Expression" xmi:id="_GWT9gAwrEe6hIdtDbuSMcQ" name="sub004aprovarDocumentoRequisitos" content="fb9973fe-c18d-4e16-8407-f3f5516952bf" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
+            <targetForm xmi:type="expression:Expression" xmi:id="_PLxOwAyNEe68ktis9SOhDA" name="sub004aprovarDocumentoRequisitos" content="217ee97f-177e-4071-a742-8be44a27d981" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
           </formMapping>
-          <contract xmi:type="process:Contract" xmi:id="_Vv4sqfziEe2urrycW701bg"/>
+          <contract xmi:type="process:Contract" xmi:id="_Vv4sqfziEe2urrycW701bg">
+            <inputs xmi:type="process:ContractInput" xmi:id="_KwpuUAyNEe68ktis9SOhDA" name="ordemVendaInput" type="COMPLEX" dataReference="ordemVenda" createMode="false">
+              <inputs xmi:type="process:ContractInput" xmi:id="_KwpuUQyNEe68ktis9SOhDA" name="documentoAprovado" type="BOOLEAN" createMode="false"/>
+            </inputs>
+          </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_Vv4srPziEe2urrycW701bg" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
         <elements xmi:type="process:Task" xmi:id="_WxBZgPziEe2urrycW701bg" name="Avaliar relatórios de progresso" outgoing="_R6NUMPzlEe2urrycW701bg" incoming="_8ZDAMPzhEe2urrycW701bg" overrideActorsOfTheLane="false">
@@ -129,6 +144,9 @@
           <stepSummary xmi:type="expression:Expression" xmi:id="_kFNMY_ziEe2urrycW701bg" name="" content="" returnTypeFixed="true"/>
         </elements>
       </elements>
+      <data xmi:type="process:BusinessObjectData" xmi:id="_JPWToAyNEe68ktis9SOhDA" name="ordemVenda" dataType="_XRD_1PltEe2cstgNYIL4gw" className="pt.ipleiria.fpn.model.OrdemVenda">
+        <defaultValue xmi:type="expression:Expression" xmi:id="_JPWToQyNEe68ktis9SOhDA" name="" content="" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Object"/>
+      </data>
       <formMapping xmi:type="process:FormMapping" xmi:id="_XRD_tPltEe2cstgNYIL4gw">
         <targetForm xmi:type="expression:Expression" xmi:id="_Kem6hwwpEe6hIdtDbuSMcQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
       </formMapping>
@@ -171,13 +189,15 @@
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_bTVuKPziEe2urrycW701bg"/>
         <condition xmi:type="expression:Expression" xmi:id="_bTVuKfziEe2urrycW701bg" name="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_e3M2cPziEe2urrycW701bg" name="Não" target="_3rH4gPzhEe2urrycW701bg" source="_brDDgPziEe2urrycW701bg">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_e3M2cPziEe2urrycW701bg" name="Não" target="_3rH4gPzhEe2urrycW701bg" source="_brDDgPziEe2urrycW701bg" isDefault="true">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_e3M2cfziEe2urrycW701bg"/>
         <condition xmi:type="expression:Expression" xmi:id="_e3M2cvziEe2urrycW701bg" name="false" content="false" returnType="java.lang.Boolean" returnTypeFixed="true"/>
       </connections>
-      <connections xmi:type="process:SequenceFlow" xmi:id="_PWYskPzlEe2urrycW701bg" name="Sim" target="_kFNMYPziEe2urrycW701bg" source="_brDDgPziEe2urrycW701bg" isDefault="true">
+      <connections xmi:type="process:SequenceFlow" xmi:id="_PWYskPzlEe2urrycW701bg" name="Sim" target="_kFNMYPziEe2urrycW701bg" source="_brDDgPziEe2urrycW701bg">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_PWYskfzlEe2urrycW701bg"/>
-        <condition xmi:type="expression:Expression" xmi:id="_PWYskvzlEe2urrycW701bg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        <condition xmi:type="expression:Expression" xmi:id="_PWYskvzlEe2urrycW701bg" name="newScript()" content="ordemVenda.documentoAprovado" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
+          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_XJfTQAyNEe68ktis9SOhDA" name="ordemVenda" dataType="_XRD_1PltEe2cstgNYIL4gw" className="pt.ipleiria.fpn.model.OrdemVenda"/>
+        </condition>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_Q7V4MPzlEe2urrycW701bg" target="_kFNMYPziEe2urrycW701bg" source="_20d9UPzhEe2urrycW701bg">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_Q7V4MfzlEe2urrycW701bg"/>

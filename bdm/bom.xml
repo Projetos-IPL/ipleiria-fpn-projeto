@@ -27,6 +27,7 @@
                 <field type="BOOLEAN" length="255" name="alteracoesNoAmbitoProjeto" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="cotacaoAprovada" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="alteracoesAprovadas" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="documentoAprovado" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
