@@ -2,9 +2,9 @@
   "id" : "003identificarRequisitosExtras",
   "name" : "003identificarRequisitosExtras",
   "type" : "form",
-  "uuid" : "5b2e5b74-7e03-488e-b1a0-9fb7e329548d",
+  "uuid" : "7e9cabde-7bd5-424f-9517-22bcd5280517",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1686924836631,
+  "lastUpdate" : 1686950293295,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "0ac1286a-d2a3-41a3-8a9e-1466fdbff7e9",
+        "reference" : "855cf188-d27c-4fdc-a2e2-61ca0f4c6922",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "ab2bc5bb-9af5-4cc9-86ae-6c97b1be83a8",
+              "reference" : "397cf2f8-f296-449c-9d82-415291f162f3",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "b9f057ff-0707-4e4b-8d91-efa643db013b",
+              "reference" : "419171d4-96b9-4bc2-a7e2-2ca780d2fc3b",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "f9bfa7fd-c4b9-43cd-b44e-a4fd6fd7bae6",
+        "reference" : "b0a5ecfa-127f-4be2-9b72-99d90563b195",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,10 +126,129 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "593437fa-215d-4c1b-8436-38978644ad83",
+          "reference" : "565b7ec6-4c53-42b2-973b-6c1e5dfdd542",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Ordem Venda"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "78cf7d8c-dfa6-4723-bffb-76401179e946",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "d207b9f7-2c33-4d16-9df5-74fcde208deb",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Requisitos Extra"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "ordemVenda.requisitosExtra"
+                        }
+                      },
+                      "reference" : "f37b4e92-7c6f-418c-bec1-610ce29c19cd",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
             [
               {
                 "type" : "component",
@@ -205,7 +324,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "91f59276-9751-4e41-8543-892309ba37cb",
+                "reference" : "24019bec-6328-4d4b-ae18-82e211e2901d",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -257,7 +376,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "215dbb4c-33f1-4a0b-a96e-39e1b8337880",
+                "reference" : "832b4892-96f6-474a-80ac-5a08bb459014",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -294,8 +413,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "",
+        "if( $data.ordemVenda ){",
+        "\treturn {",
+        "\t\t//map ordemVenda variable to expected task contract input",
+        "\t\tordemVendaInput: {",
+        "\t\t\trequisitosExtra: $data.ordemVenda.requisitosExtra !== undefined ? $data.ordemVenda.requisitosExtra : null",
+        "\t\t}",
+        "\t}",
         "}"
       ],
       "exposed" : false
@@ -304,6 +428,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "ordemVenda" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.ordemVenda_ref.link}}"
       ],
       "exposed" : false
     },
@@ -317,14 +448,14 @@
   },
   "assets" : [
     {
-      "id" : "a388ad50-2409-4662-b2ee-49df1a0cd4b3",
+      "id" : "48a89dbc-60c0-4460-beea-99b4c85d5882",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "b0ff6996-a04b-40b3-ace7-f7e62b056100",
+      "id" : "3a3ef3fa-92ae-4f11-bcee-334145e97931",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
