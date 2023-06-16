@@ -285,7 +285,7 @@
           <iteratorExpression xmi:type="expression:Expression" xmi:id="_CMY1SPoYEe2U79ChiZiVPQ" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
           <completionCondition xmi:type="expression:Expression" xmi:id="_CMY1R_oYEe2U79ChiZiVPQ" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
           <calledActivityName xmi:type="expression:Expression" xmi:id="_FA22E_oaEe2U79ChiZiVPQ" name="Tarefas de Conceção e Desenvolvimento" content="Tarefas de Conceção e Desenvolvimento" returnTypeFixed="true"/>
-          <calledActivityVersion xmi:type="expression:Expression" xmi:id="_FA22FPoaEe2U79ChiZiVPQ" name="" content="" returnTypeFixed="true"/>
+          <calledActivityVersion xmi:type="expression:Expression" xmi:id="_FA22FPoaEe2U79ChiZiVPQ" name="1.0" content="1.0" returnTypeFixed="true"/>
         </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_f7hfFPoVEe2U79ChiZiVPQ">

@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "864aa6a3-e2bc-46d7-8019-244fed7ec2de",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1686927086231,
+  "lastUpdate" : 1686946478450,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -13,7 +13,19 @@
         "dimension" : {
           "xs" : 12
         },
-        "propertyValues" : { },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
         "reference" : "940ef222-539d-4952-8b51-e16cda138989",
         "hasValidationError" : false,
         "id" : "pbContainer",
