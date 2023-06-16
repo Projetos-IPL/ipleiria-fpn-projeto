@@ -1,10 +1,10 @@
 {
-  "id" : "APpedirAprovacaoAlteracoes",
-  "name" : "APpedirAprovacaoAlteracoes",
+  "id" : "007aprvDocFecho",
+  "name" : "007aprvDocFecho",
   "type" : "form",
-  "uuid" : "0f643f86-42af-4a3d-a964-0a94baf0534f",
+  "uuid" : "38f4a1ad-0326-4c37-adb1-9f0b9323268b",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1686954612256,
+  "lastUpdate" : 1686953373199,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "23aa1a25-94cb-4960-abb2-88465ad9e888",
+        "reference" : "4397275a-a18a-43f6-a280-670ff46eff35",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "0f16af62-755c-4b32-a476-ec86f81d9c56",
+              "reference" : "45d76d5c-2830-4dc8-8649-20508e5659c8",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "437a0947-0758-469a-b266-f754f0233f95",
+              "reference" : "78f0a94c-e197-4bcc-9534-b6a3ef2494c4",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "0abedc40-a039-4ca1-829d-fb843f0a29aa",
+        "reference" : "a8d35548-7fd3-4799-8887-d76986713f04",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "5f2cb123-9856-4683-90ee-16812c890ce7",
+          "reference" : "86962118-ee19-4110-99dd-5aac78585a69",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "6f834018-5e3e-48a5-8cb4-1cfe7c9b03a1",
+                "reference" : "bb000083-d97d-48dc-9d6b-c560c1fd0580",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "2f758282-dc71-4dfa-9864-d31e2687ee6a",
+                "reference" : "d1e3cb3b-9605-46da-8348-3dd5a4226dc8",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -229,7 +229,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Alteracoes Aprovadas"
+                          "value" : "Documentacao Aprovada"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -237,10 +237,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "ordemVenda.alteracoesAprovadas"
+                          "value" : "ordemVenda.documentacaoAprovada"
                         }
                       },
-                      "reference" : "d8dc64ce-233d-426f-abef-9769cd7174ff",
+                      "reference" : "83593f50-1304-47c2-bfc0-b69a10bcac2d",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -324,7 +324,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "649393f8-004b-4c70-aa5e-578b6f6262c1",
+                "reference" : "430733ff-5e81-4ac7-b027-fa29f0f4e70c",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -376,7 +376,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "18806d24-6437-4a1f-85e5-88f38ef27e2c",
+                "reference" : "a5d9e1a1-37ad-46c0-98bd-208865f2c7da",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -417,7 +417,7 @@
         "\treturn {",
         "\t\t//map ordemVenda variable to expected task contract input",
         "\t\tordemVendaInput: {",
-        "\t\t\talteracoesAprovadas: $data.ordemVenda.alteracoesAprovadas !== undefined ? $data.ordemVenda.alteracoesAprovadas : null",
+        "\t\t\tdocumentacaoAprovada: $data.ordemVenda.documentacaoAprovada !== undefined ? $data.ordemVenda.documentacaoAprovada : null",
         "\t\t}",
         "\t}",
         "}"
@@ -448,16 +448,16 @@
   },
   "assets" : [
     {
-      "id" : "31e7caa4-9d8c-4e60-971a-b3b4795403ed",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "b14a3796-9821-406d-a6c6-c5db6dcb3022",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ad53acea-8401-4c23-b49e-c0789b2bf6b1",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "241eb0bd-15d0-48eb-849f-ab109b0ecd87",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }

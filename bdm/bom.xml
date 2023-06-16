@@ -22,6 +22,11 @@
                 <field type="BOOLEAN" length="255" name="planoTestesAprovado" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="necessidadeReuniaoFecho" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="atividadesTerminadas" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="documentacaoAprovada" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="pedidoAprovacaoGestorProjeto" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="alteracoesNoAmbitoProjeto" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="cotacaoAprovada" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="alteracoesAprovadas" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>

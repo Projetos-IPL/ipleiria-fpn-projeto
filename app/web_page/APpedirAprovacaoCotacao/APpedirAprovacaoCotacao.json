@@ -2,9 +2,9 @@
   "id" : "APpedirAprovacaoCotacao",
   "name" : "APpedirAprovacaoCotacao",
   "type" : "form",
-  "uuid" : "9af3460e-613f-4c72-8120-9d032d8f2c2f",
+  "uuid" : "a6768c43-d149-4a96-ada2-1d7c9d1af1e4",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1686914903657,
+  "lastUpdate" : 1686954549925,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "a6af2aba-2712-4c3e-af3c-19fb2dac412f",
+        "reference" : "0090ba36-7483-420e-a2dc-518a71011fbb",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "a55c5df5-4d53-48e1-a2b4-a1b6202014b3",
+              "reference" : "0fd8f73e-032f-430a-be45-b947d2ff5c17",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "9f906472-ddbf-4304-83c5-56c77af92ae5",
+              "reference" : "1dbde9fc-fbd8-49b4-8cbb-8d5ea572e81d",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "40d93871-7d38-41f5-9e67-88828bd1b3f4",
+        "reference" : "c64a673f-0fe0-4135-9d9b-325e82ee44c7",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,10 +126,129 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "13b59487-86d6-48f5-a0cd-f4d60f71c53f",
+          "reference" : "cce05a5d-f979-49c2-a5bd-dd5987a619d6",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
+            [
+              {
+                "type" : "component",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "Ordem Venda"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "left"
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "1aeefafa-5a03-448f-bfab-8178bbe40db4",
+                "hasValidationError" : false,
+                "id" : "pbTitle",
+                "description" : ""
+              }
+            ],
+            [
+              {
+                "type" : "container",
+                "dimension" : {
+                  "md" : 12,
+                  "sm" : 12,
+                  "xs" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "dimension" : {
+                    "type" : "constant",
+                    "value" : 12
+                  }
+                },
+                "reference" : "26bdbb89-3a1d-4e7b-9f64-614303393719",
+                "hasValidationError" : false,
+                "id" : "pbContainer",
+                "rows" : [
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Cotacao Aprovada"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "ordemVenda.cotacaoAprovada"
+                        }
+                      },
+                      "reference" : "9ab02914-4516-4750-a400-452a092f2e08",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
+                      "description" : ""
+                    }
+                  ]
+                ]
+              }
+            ],
             [
               {
                 "type" : "component",
@@ -205,7 +324,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "8c2ec3c5-618c-411c-a076-04053e8cf4b4",
+                "reference" : "45f18f20-43d2-4b17-8fad-daae50e3048e",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -257,7 +376,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "49d5056e-2635-4458-a50a-1f9dac33f380",
+                "reference" : "1d022d06-051e-4e15-87ca-69ec85902fe3",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -294,8 +413,13 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "return {",
-        "",
+        "if( $data.ordemVenda ){",
+        "\treturn {",
+        "\t\t//map ordemVenda variable to expected task contract input",
+        "\t\tordemVendaInput: {",
+        "\t\t\tcotacaoAprovada: $data.ordemVenda.cotacaoAprovada !== undefined ? $data.ordemVenda.cotacaoAprovada : null",
+        "\t\t}",
+        "\t}",
         "}"
       ],
       "exposed" : false
@@ -304,6 +428,13 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}/context"
+      ],
+      "exposed" : false
+    },
+    "ordemVenda" : {
+      "type" : "url",
+      "value" : [
+        "../{{context.ordemVenda_ref.link}}"
       ],
       "exposed" : false
     },
@@ -317,16 +448,16 @@
   },
   "assets" : [
     {
-      "id" : "c6eef790-72a0-4003-b5f3-169c56431b62",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "6de0dc81-1f4a-4911-a4e9-d63bc9bb741d",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ff602b5b-0a9e-484c-b74e-5d393133c968",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "3240d6eb-997c-401c-96c7-996593c8ada5",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }

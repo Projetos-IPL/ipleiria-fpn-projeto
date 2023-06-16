@@ -1,10 +1,10 @@
 {
-  "id" : "APpedirAprovacaoAlteracoes",
-  "name" : "APpedirAprovacaoAlteracoes",
+  "id" : "007aprvGestorProjeto",
+  "name" : "007aprvGestorProjeto",
   "type" : "form",
-  "uuid" : "0f643f86-42af-4a3d-a964-0a94baf0534f",
+  "uuid" : "705e07d4-82d0-4a49-9f11-0d51beab7f7b",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1686954612256,
+  "lastUpdate" : 1686953687430,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "23aa1a25-94cb-4960-abb2-88465ad9e888",
+        "reference" : "ee4cdfee-3f61-469c-8f12-817c15338ca7",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "0f16af62-755c-4b32-a476-ec86f81d9c56",
+              "reference" : "9fb68d24-4549-44ad-8bfd-fdea92cda330",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "437a0947-0758-469a-b266-f754f0233f95",
+              "reference" : "7aa0dfa7-c64f-4d70-ab44-0ca40e6decfb",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "0abedc40-a039-4ca1-829d-fb843f0a29aa",
+        "reference" : "3080d3f8-7382-4800-b35f-5763f7c13735",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,7 +126,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "5f2cb123-9856-4683-90ee-16812c890ce7",
+          "reference" : "b660c928-0734-4f80-a0f7-e01b76b9aa7b",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -165,7 +165,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "6f834018-5e3e-48a5-8cb4-1cfe7c9b03a1",
+                "reference" : "360c187d-a54a-46cb-8f25-fc2f730b4fa9",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -197,7 +197,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "2f758282-dc71-4dfa-9864-d31e2687ee6a",
+                "reference" : "7a3ea4b3-df6f-45ef-b8af-f7540a7937fb",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -229,7 +229,7 @@
                         },
                         "label" : {
                           "type" : "interpolation",
-                          "value" : "Alteracoes Aprovadas"
+                          "value" : "Pedido Aprovacao Gestor Projeto"
                         },
                         "dimension" : {
                           "type" : "constant",
@@ -237,10 +237,10 @@
                         },
                         "value" : {
                           "type" : "variable",
-                          "value" : "ordemVenda.alteracoesAprovadas"
+                          "value" : "ordemVenda.pedidoAprovacaoGestorProjeto"
                         }
                       },
-                      "reference" : "d8dc64ce-233d-426f-abef-9769cd7174ff",
+                      "reference" : "8d580ea7-e616-478f-ac4a-cfe14b69d2cb",
                       "hasValidationError" : false,
                       "id" : "pbCheckbox",
                       "description" : ""
@@ -324,7 +324,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "649393f8-004b-4c70-aa5e-578b6f6262c1",
+                "reference" : "12a5684f-81fb-4ae8-a637-c584473321d3",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -376,7 +376,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "18806d24-6437-4a1f-85e5-88f38ef27e2c",
+                "reference" : "49968fae-f49a-4293-be48-0bd891dd88a7",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -417,7 +417,7 @@
         "\treturn {",
         "\t\t//map ordemVenda variable to expected task contract input",
         "\t\tordemVendaInput: {",
-        "\t\t\talteracoesAprovadas: $data.ordemVenda.alteracoesAprovadas !== undefined ? $data.ordemVenda.alteracoesAprovadas : null",
+        "\t\t\tpedidoAprovacaoGestorProjeto: $data.ordemVenda.pedidoAprovacaoGestorProjeto !== undefined ? $data.ordemVenda.pedidoAprovacaoGestorProjeto : null",
         "\t\t}",
         "\t}",
         "}"
@@ -448,14 +448,14 @@
   },
   "assets" : [
     {
-      "id" : "31e7caa4-9d8c-4e60-971a-b3b4795403ed",
+      "id" : "94cde2b0-a164-4e3f-bf9a-f395e40d4fe2",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "ad53acea-8401-4c23-b49e-c0789b2bf6b1",
+      "id" : "8ffb1a06-19b7-4b7b-ad40-f80869928210",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
