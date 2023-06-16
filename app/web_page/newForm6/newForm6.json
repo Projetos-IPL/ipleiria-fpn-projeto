@@ -1,10 +1,10 @@
 {
-  "id" : "007verificarAtividadesEstaoTerminadas",
-  "name" : "007verificarAtividadesEstaoTerminadas",
+  "id" : "newForm6",
+  "name" : "newForm6",
   "type" : "form",
-  "uuid" : "6d85eb7b-f1b8-4742-abe1-bdcdd075a10f",
+  "uuid" : "5577055c-df72-48e4-b662-7d0b78437bca",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1686952464595,
+  "lastUpdate" : 1686952421209,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "8e5b730a-dc9d-407c-8ada-d3dc0f92bd93",
+        "reference" : "82cdd188-e778-40fe-919e-ae1e15a5b1f0",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "ef391be7-6a45-4d30-b88e-c10c9b7272e3",
+              "reference" : "868fcddb-507b-4730-9095-8185c4181fff",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -101,7 +101,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "6c5325fc-d065-42b9-b9ce-1e0699cacd79",
+              "reference" : "548a7417-a42e-42cf-ae5a-0fa87d8e7393",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -117,7 +117,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "037fdfe4-62be-421a-b205-a554ae2e8ce8",
+        "reference" : "f6cd745f-c15a-400f-a220-260ecb4abf7d",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -126,129 +126,10 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "68570ab0-c466-4823-b178-f55c43f55224",
+          "reference" : "de2a79be-48c4-42af-a75f-0b20c9ff1596",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
-            [
-              {
-                "type" : "component",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "level" : {
-                    "type" : "constant",
-                    "value" : "Level 4"
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "text" : {
-                    "type" : "interpolation",
-                    "value" : "Ordem Venda"
-                  },
-                  "alignment" : {
-                    "type" : "constant",
-                    "value" : "left"
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "197e2e60-599a-4b01-bca3-037357834b1d",
-                "hasValidationError" : false,
-                "id" : "pbTitle",
-                "description" : ""
-              }
-            ],
-            [
-              {
-                "type" : "container",
-                "dimension" : {
-                  "md" : 12,
-                  "sm" : 12,
-                  "xs" : 12,
-                  "lg" : 12
-                },
-                "propertyValues" : {
-                  "repeatedCollection" : {
-                    "type" : "variable"
-                  },
-                  "hidden" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "cssClasses" : {
-                    "type" : "constant",
-                    "value" : ""
-                  },
-                  "dimension" : {
-                    "type" : "constant",
-                    "value" : 12
-                  }
-                },
-                "reference" : "2896025a-3e7f-4daa-be50-73826ba2744b",
-                "hasValidationError" : false,
-                "id" : "pbContainer",
-                "rows" : [
-                  [
-                    {
-                      "type" : "component",
-                      "dimension" : {
-                        "md" : 12,
-                        "sm" : 12,
-                        "xs" : 12,
-                        "lg" : 12
-                      },
-                      "propertyValues" : {
-                        "labelHidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "hidden" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "cssClasses" : {
-                          "type" : "constant",
-                          "value" : ""
-                        },
-                        "disabled" : {
-                          "type" : "constant",
-                          "value" : false
-                        },
-                        "label" : {
-                          "type" : "interpolation",
-                          "value" : "Atividades Terminadas"
-                        },
-                        "dimension" : {
-                          "type" : "constant",
-                          "value" : 12
-                        },
-                        "value" : {
-                          "type" : "variable",
-                          "value" : "ordemVenda.atividadesTerminadas"
-                        }
-                      },
-                      "reference" : "07767596-bd1c-4d84-90c0-4eaa89272c4e",
-                      "hasValidationError" : false,
-                      "id" : "pbCheckbox",
-                      "description" : ""
-                    }
-                  ]
-                ]
-              }
-            ],
             [
               {
                 "type" : "component",
@@ -324,7 +205,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "b4a722f4-43b9-482d-a795-5694278a0213",
+                "reference" : "1972c5c7-ce40-4f1d-9d6d-6ff8579c0b20",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -376,7 +257,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "fbd2d433-8b29-4f94-9f3c-d3296474d3aa",
+                "reference" : "7fbc66bb-8dce-4a40-be03-079a6dcd18db",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -413,13 +294,8 @@
     "formOutput" : {
       "type" : "expression",
       "value" : [
-        "if( $data.ordemVenda ){",
-        "\treturn {",
-        "\t\t//map ordemVenda variable to expected task contract input",
-        "\t\tordemVendaInput: {",
-        "\t\t\tatividadesTerminadas: $data.ordemVenda.atividadesTerminadas !== undefined ? $data.ordemVenda.atividadesTerminadas : null",
-        "\t\t}",
-        "\t}",
+        "return {",
+        "",
         "}"
       ],
       "exposed" : false
@@ -428,13 +304,6 @@
       "type" : "url",
       "value" : [
         "../API/bpm/userTask/{{taskId}}/context"
-      ],
-      "exposed" : false
-    },
-    "ordemVenda" : {
-      "type" : "url",
-      "value" : [
-        "../{{context.ordemVenda_ref.link}}"
       ],
       "exposed" : false
     },
@@ -448,14 +317,14 @@
   },
   "assets" : [
     {
-      "id" : "5ce110ef-f93f-431d-9ebe-621ce39b28f7",
+      "id" : "071cbf64-cb17-4bce-adb1-9842a6fc528a",
       "name" : "style.css",
       "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "740dd4dc-ac4b-425a-81e3-009919c2f641",
+      "id" : "744c4f38-15ee-4077-b3bb-5fe5e584f309",
       "name" : "localization.json",
       "type" : "json",
       "order" : 0,
